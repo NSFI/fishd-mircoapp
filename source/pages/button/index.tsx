@@ -2,7 +2,7 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import './index.less'
 
-export default class Index extends Component {
+export default class Button extends Component {
 
   /**
    * 指定config的类型声明为: Taro.Config
@@ -17,11 +17,7 @@ export default class Index extends Component {
 
   componentWillMount () { }
 
-  componentDidMount () { 
-    Taro.navigateTo({
-      url: '/pages/button/index'
-    })
-  }
+  componentDidMount () { }
 
   componentWillUnmount () { }
 
@@ -32,7 +28,7 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <Text>Hello Button!335</Text>
       </View>
     )
   }

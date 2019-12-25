@@ -1,5 +1,6 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import Index from './pages/index'
+import Button from './pages/button';
 
 import './app.less'
 
@@ -20,7 +21,8 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/button/index'
     ],
     window: {
       backgroundTextStyle: 'light',

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dll": "concurrently 'npm run dll:demo' 'npm run dll:site'",
-    "dev": "concurrently 'npm run open:demo' 'npm run open:site'",
+    "dev": "concurrently 'npm run dev:h5' 'npm run open:site'",
     "build": "concurrently 'npm run build:demo' 'npm run build:site'",
     "dll:site": "fishd-doc dll --config ./site/doc.desktop.config.js",
     "dll:demo": "fishd-doc dll --config ./site/doc.mobile.config.js",

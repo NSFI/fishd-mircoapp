@@ -2,8 +2,8 @@ import { getPlainComponentsList } from './utils'
 
 export const config = {
   // 组件预览地址
-  demoBaseUrl: 'http://localhost:4100/#/',
-  // demoBaseUrl: 'https://youzan.github.io/vant/mobile.html#/zh-CN/',
+  // demoBaseUrl: 'http://localhost:4100/#/',
+  demoBaseUrl: 'http://10.242.169.128:10086/',
   'zh-CN': {
     header: {},
     nav: [
