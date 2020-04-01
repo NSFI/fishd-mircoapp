@@ -8,19 +8,14 @@
 		"dev": "concurrently 'npm run dev:h5' 'npm run open:site'",
 		"build": "concurrently 'npm run build:site'",
 		"dll:site": "fishd-doc dll --config ./site/doc.desktop.config.js",
-		"dll:demo": "fishd-doc dll --config ./site/doc.mobile.config.js",
 		"open:site": "fishd-doc start --config ./site/doc.desktop.config.js",
-		"open:demo": "fishd-doc start --config ./site/doc.mobile.config.js",
 		"build:site": "fishd-doc build --config ./site/doc.desktop.config.js",
-		"build:demo": "fishd-doc build --config ./site/doc.mobile.config.js",
 		"build:h5": "taro build --type h5",
 		"dev:h5": "npm run build:h5 -- --watch"
 	},
 	"author": "qiyu",
 	"license": "ISC",
 	"dependencies": {
-		"react": "^16.12.0",
-		"fishd-doc": "^1.0.2",
 		"@tarojs/components": "2.0.3",
 		"@tarojs/components-qa": "2.0.3",
 		"@tarojs/router": "2.0.3",
@@ -29,12 +24,14 @@
 		"@tarojs/taro-h5": "2.0.3",
 		"@tarojs/taro-qq": "2.0.3",
 		"@tarojs/taro-quickapp": "2.0.3",
+		"@tarojs/taro-rn": "2.0.3",
 		"@tarojs/taro-swan": "2.0.3",
 		"@tarojs/taro-tt": "2.0.3",
 		"@tarojs/taro-weapp": "2.0.3",
-		"@tarojs/taro-rn": "2.0.3",
+		"fishd-doc": "^1.0.2",
+		"nerv-devtools": "^1.5.5",
 		"nervjs": "^1.5.5",
-		"nerv-devtools": "^1.5.5"
+		"react": "^16.12.0"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.7.4",
