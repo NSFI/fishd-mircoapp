@@ -10,7 +10,7 @@ export default class Loading extends Component<IProps, IState> {
 
   static defaultProps = {
     size: 24,
-    color: '#ccc',
+    color: '',
     className: ''
   }
 

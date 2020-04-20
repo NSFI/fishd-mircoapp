@@ -1,3 +1,5 @@
+@import '../../style/variables';
+
 .fs-loadmore {
   &__default, &__loading, &__error, &__end {
     display: flex;
@@ -5,7 +7,9 @@
     justify-content: center;
   }
   &__text {
-    font-size: 28px;
+    font-size: @loadmore-text;
+  }
+  &__loading &__text {
     margin-left: 10px;
   }
 }
