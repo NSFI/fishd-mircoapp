@@ -71,7 +71,8 @@ const config = {
     router: {
       customRoutes: {
         '/pages/index/index': '/index',
-        '/pages/button/index': '/button'
+        '/pages/button/index': '/button',
+        '/pages/loadMore/index': '/loadMore'
       }
     }
   }

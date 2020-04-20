@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "typescript-eslint-parser",
   "plugins": [
     "import",
     "react",
@@ -25,7 +25,7 @@
     "jquery": true,
     "jest": true
   },
-  "extends": ["standard"],
+  "extends": ["taro"],
   "rules": {
     "no-unused-vars": 0
   },

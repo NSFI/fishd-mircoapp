@@ -5,7 +5,8 @@
     "experimentalDecorators": true,
     "module": "commonjs",
     "target": "es5",
-    "jsx": "react",
+    "jsx": "preserve",
+    "jsxFactory": "Taro.createElement",
     "lib": [
       "es5",
       "dom",
